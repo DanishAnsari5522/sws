@@ -1,0 +1,138 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+.main{
+    /* background-color:rgb(167, 234, 236); */
+    height: 165px;
+    margin-top: 0;
+}
+ .first{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top:50px;
+ }
+.second{
+    
+    font-size: 20;
+
+}
+
+.fourth{
+    margin-top: 2%;
+}
+.fifth{
+  
+    text-align: center;
+}
+
+.seven{
+    color: black;
+    /* align-items: center;
+     */
+
+}
+.eight{
+    margin-top: 4%;
+   
+    text-decoration: underline;
+}
+.nine{
+    font-size: 25px;
+    /* align-items: center;
+    text-align: center; */
+    margin-left: 25px;
+
+}
+.footercomp{
+    display: flex;
+    justify-content: space-between;
+    padding:3% 10%;
+    background-color: #e7e7e7;
+    margin-top: 10px;
+}
+
+.addfon{
+    font-size: 20px;
+}
+.detail{
+    margin-top: 2%;
+    color:black
+}
+.iconcol{
+    background-color: '#e7e7e7';
+    /* color: #189f97; */
+}
+
+.btn{
+    background-color:#189f97;
+  color: white;
+  font-size: 20px;
+  padding: 10px 60px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  cursor: pointer;
+
+}
+.mes{
+    background: #f4f4f4 none repeat scroll 0 0;
+    border: 80px;
+    color: #8c8c8c;
+    /* float: left; */
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    padding: 18px 20px;
+    /* resize: none; */
+    width: 100%;
+}
+.mess{
+    background: #f4f4f4 none repeat scroll 0 0;
+    border: 80px;
+    color: #8c8c8c;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    padding: 18px 20px;
+    width: 100%; 
+}
+.form{
+margin-left: 20px;
+width:90%;
+}
+.formspec{
+    display: flex;
+    /* width: 100%; */
+}
+.map{
+    width: 50%;
+    margin-top:20px;
+  /* top: 80%; */
+}
+.inder1{
+    width: 50%;
+}
+
+@media screen and (max-width:500px) {
+    .footercomp{
+        display: block;
+        padding:3% 10%;
+    }
+    .formspec{
+        display: block;
+    }
+    .form{
+        margin-left: 00px;
+        width:100%;
+        }
+        .inder1{
+            width: 100%;
+            padding: 0 10px;
+        }
+        .map{
+            width: 100%;
+            margin-top:20px;
+            padding: 0 10px;
+        }
+}

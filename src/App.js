@@ -4,16 +4,20 @@ import "./App.css";
 import { BrowserRouter, Route } from 'react-router-dom';
 import RootNavigation from './navigation/RootNavigation';
 import Home from './screens/Home'
-import ContactUs from './screens/ContactUs'
-
+// import ContactUs from './screens/ContactUs'
+import  ContactUs  from './screens/ContactUs';
 function App() {
   return (
-    <div className="App">
-      <BrowserRouter>
+    <div>
+      {
+       /* <BrowserRouter>
         <RootNavigation />
         <Route path="/" exact><Home /></Route>
         <Route path="/contactus"><ContactUs /></Route>
-      </BrowserRouter>
+      </BrowserRouter> */
+      <ContactUs />
+      }
+    
     </div>
   )
 }
